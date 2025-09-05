@@ -2,8 +2,6 @@
 
 A modern, fully functional e-commerce web application built with React, TypeScript, and Tailwind CSS. This application includes a complete purchase flow.
 
-[E-commerce Store Preview](https://joanfloridoecommerce.netlify.app/)
-
 ## ✨ Key Features
 
 ### 🏠 Homepage
@@ -53,34 +51,6 @@ A modern, fully functional e-commerce web application built with React, TypeScri
 - **Icons**: Lucide React
 - **UI Components**: shadcn/ui
 
-## 📁 Project Structure
-
-```
-src/
-├── components/         # Reusable components
-│   ├── ui/             # Base UI components (shadcn/ui)
-│   ├── Navbar.tsx      # Navigation bar
-│   ├── ProductCard.tsx # Product card
-│   └── ProductGrid.tsx # Product grid
-├── contexts/           # React contexts
-│   └── CartContext.tsx # Cart context
-├── hooks/              # Custom hooks
-│   ├── use-mobile.tsx  # Mobile detection hook
-│   └── use-toast.ts    # Toast notifications hook
-├── lib/                # Utilities and configurations
-│   ├── api.ts          # API configuration
-│   └── utils.ts        # Utility functions
-├── pages/              # Application pages
-│   ├── Cart.tsx        # Cart page
-│   ├── Checkout.tsx    # Checkout page
-│   ├── Index.tsx       # Home page
-│   ├── ProductDetail.tsx # Product detail page
-│   └── Products.tsx    # Products list page
-├── types/              # TypeScript definitions
-│   └── index.ts        # Global types
-└── main.tsx           # Entry point
-```
-
 ## 🎯 Implemented Features
 
 ### ✅ Completed
@@ -105,16 +75,3 @@ The application is optimized for all devices:
 - **Data validation** on frontend
 - **HTTPS** in production
 - **Input sanitization** for user inputs
-
-## 👨‍💻 Author
--[GitHub](https://github.com/JoanF1028)
-
-## 🙏 Acknowledgments
-
-- [Fake Store API](https://fakestoreapi.com) for providing product data
-- [shadcn/ui](https://ui.shadcn.com) for UI components
-- [Tailwind CSS](https://tailwindcss.com) for the styling framework
-
----
-
-⭐ If you liked this project, give it a star on the repository!
